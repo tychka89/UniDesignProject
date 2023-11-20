@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    src: url("../assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 700;
+    src: url("../assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Jost;
+    font-weight: 400;
+    src: url("../assets/fonts/Jost-Regular.ttf");
+}
+
+@font-face {
+    font-family: Jost;
+    font-weight: 700;
+    src: url("../assets/fonts/Jost-Bold.ttf");
+}
+
+html {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+
+}
+
+.menu-container {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #0E0578;
+}
