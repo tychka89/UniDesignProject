@@ -140,6 +140,7 @@ button {
 
 .second-part-title {
     font-size: 48px;
+
     color: #2000E7;
     line-height: 72px;
 }
@@ -150,4 +151,89 @@ button {
 
 //.image-container2 {
     margin-left: 100px;
+}
+
+.third-part {
+    background-color: #FFD69633;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 272px;
+}
+
+.third-part-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-part-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2000E7;
+    line-height: 72px;
+    //padding-bottom: 0;
+}
+
+.third-part-text {
+}
+
+.third-part-images-container {
+
+}
+
+.fourth-part-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #2000E7;
+    line-height: 72px;
+    //padding-bottom: 0;
+}
+
+.fourth-part {
+    background-color: #43BAFD0F;
+    margin-top: 272px;
+}
+
+.fourth-part-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-part-form-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-part-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    width: 653px;
+    height: 94px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.password {
+    width: 653px;
+    height: 94px;
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 81px;
+}
+
+.text {
+    width: 653px;
+    height: 265px;
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 81px;
+}
+
+.fourth-part-image {
+    margin-left: -140px;
 }
