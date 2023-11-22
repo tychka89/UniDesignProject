@@ -30,9 +30,9 @@ html {
 }
 
 body {
-    width: 85vw;
+    width: 100vw;
     height: 100vh;
-    margin-left: 78px;
+    //margin-left: 78px;
 }
 
 a {
@@ -58,7 +58,7 @@ fieldset {
 }
 
 .header {
-
+    margin-left: 78px;
 }
 
 .menu-container {
@@ -84,9 +84,10 @@ fieldset {
     display: flex;
     justify-content: space-between;
     margin-top: 200px;
+    margin-left: 78px;
 }
 
-//.front-part-button {
+.front-part-buttons {
     display: flex;
     justify-content: space-between;
 }
@@ -128,13 +129,15 @@ fieldset {
 }
 
 .front-part-text {
-    width: 400px;
+    width: 616px;
+    height: 72px;
 }
 
 .second-part {
     display: flex;
     justify-content: space-between;
     margin-top: 200px;
+    margin-left: 78px;
 }
 
 .second-part-text-container {
@@ -150,10 +153,6 @@ fieldset {
 
 .second-part-text {
     width: 400px;
-}
-
-//.image-container2 {
-    margin-left: 100px;
 }
 
 .third-part {
@@ -283,4 +282,74 @@ fieldset {
 
 .fourth-part-image {
     margin-left: -140px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-family: Jost, sans-serif;
+    font-size: 31px;
+    line-height: 44.8px;
+    background-color: #FFD69633;
+    margin-top: 208px;
+}
+
+.footer-container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text-container {
+    margin-top: 132px;
+    margin-left: 73px;
+}
+
+.logo2 {
+    width: 386px;
+    height: 72px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 46.24px;
+    color: #0E0578;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.footer-button-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-email {
+    width: 323px;
+    height: 97px;
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+.footer-text-container ::placeholder {
+    width: 78px;
+    height: 45px;
+    font-size: 31px;
+    line-height: 44.8px;
+    color: #FFFFFF;
+}
+
+.footer-button {
+    width: 178px;
+    height: 97px;
+    background-color: #F965FC;
+    border-radius: 30px;
+    font-size: 31px;
+    line-height: 44.8px;
+    color: #FFFFFF;
+    margin-left: -60px;
 }
