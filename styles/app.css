@@ -32,7 +32,6 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    //margin-left: 78px;
 }
 
 a {
@@ -90,6 +89,7 @@ fieldset {
 .front-part-buttons {
     display: flex;
     justify-content: space-between;
+    margin-top: 111px;
 }
 
 .blue-button {
@@ -126,6 +126,7 @@ fieldset {
 .image-container {
     width: 564px;
     height: 564px;
+    margin-right: 104px;
 }
 
 .front-part-text {
@@ -158,9 +159,8 @@ fieldset {
 .third-part {
     background-color: #FFD69633;
     width: 100%;
-    margin: 0;
+    margin: 272px 0 0 0;
     padding: 0;
-    margin-top: 272px;
 }
 
 .third-part-text-container {
@@ -187,13 +187,13 @@ fieldset {
 }
 
 .third-part-images-container>* {
-    flex: 0 0 30%;
+    flex: 0 0 31%;
 }
 
 .third-part-images-container > img {
     width: 246px;
     height: 180px;
-    margin: 7px;
+    margin: 15px;
     margin-bottom: 33px;
 }
 
