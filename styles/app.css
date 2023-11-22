@@ -188,13 +188,14 @@ fieldset {
 }
 
 .third-part-images-container>* {
-    flex: 0 0 25%;
+    flex: 0 0 30%;
 }
 
 .third-part-images-container > img {
     width: 246px;
     height: 180px;
-    margin: 20px;
+    margin: 7px;
+    margin-bottom: 33px;
 }
 
 .fourth-part-title {
@@ -230,6 +231,12 @@ fieldset {
     flex-direction: column;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .email {
     width: 653px;
     height: 94px;
@@ -257,9 +264,16 @@ fieldset {
 }
 
 .fourth-part-button {
+    width: 327px;
+    height: 94px;
+    background-color: #FFFFFF;
+    font-size: 32px;
+    line-height: 48px;
     margin-top: 49px;
-    //margin-left: 200px;
-    display: flex;
+    //margin-left: 230px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 0;
+
 }
 
 ::placeholder {
