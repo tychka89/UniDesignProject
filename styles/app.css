@@ -47,6 +47,9 @@ button {
     font-size: 24px;
 }
 
+fieldset {
+    border: 0 none;
+}
 
 .header-container {
     margin-top: 45px;
@@ -172,14 +175,26 @@ button {
     font-weight: 700;
     color: #2000E7;
     line-height: 72px;
-    //padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .third-part-text {
+    margin-top: 0;
 }
 
 .third-part-images-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.third-part-images-container>* {
+    flex: 0 0 25%;
+}
+
+.third-part-images-container > img {
+    width: 246px;
+    height: 180px;
+    margin: 20px;
 }
 
 .fourth-part-title {
@@ -187,7 +202,11 @@ button {
     font-weight: 700;
     color: #2000E7;
     line-height: 72px;
-    //padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.third-part-text {
+    margin-top: 0;
 }
 
 .fourth-part {
@@ -216,6 +235,7 @@ button {
     height: 94px;
     font-size: 32px;
     line-height: 48px;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .password {
@@ -224,6 +244,7 @@ button {
     font-size: 32px;
     line-height: 48px;
     margin-top: 81px;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .text {
@@ -232,6 +253,18 @@ button {
     font-size: 32px;
     line-height: 48px;
     margin-top: 81px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.fourth-part-button {
+    margin-top: 49px;
+    //margin-left: 200px;
+    display: flex;
+}
+
+::placeholder {
+    color: #000000;
+    padding: 30px 511px 16px 55px;
 }
 
 .fourth-part-image {
