@@ -50,6 +50,12 @@ fieldset {
     border: 0 none;
 }
 
+hr {
+    width: 1334px;
+    margin: 30px auto;
+    border: 3px solid black;
+}
+
 .header-container {
     margin-top: 45px;
     display: flex;
@@ -62,6 +68,7 @@ fieldset {
 
 .menu-container {
     width: 50%;
+    margin-right: 130px;
 }
 
 .menu {
@@ -99,7 +106,7 @@ fieldset {
 }
 
 .transparent-button {
-    background-color: #2000E7 4%;
+    background-color: #2000E7 | 4%;
     color: #2000E7;
     border: 2px solid #2000E7;
 }
@@ -193,8 +200,7 @@ fieldset {
 .third-part-images-container > img {
     width: 246px;
     height: 180px;
-    margin: 15px;
-    margin-bottom: 33px;
+    margin: 15px 15px 33px 15px;
 }
 
 .fourth-part-title {
@@ -212,6 +218,10 @@ fieldset {
 .fourth-part {
     background-color: #43BAFD0F;
     margin-top: 272px;
+}
+
+.fourth-part-form-image {
+    margin-left: 50px;
 }
 
 .fourth-part-text-container {
@@ -285,6 +295,8 @@ fieldset {
 }
 
 .footer {
+    width: 1440px;
+    height: 809px;
     display: flex;
     flex-direction: column;
     font-family: Jost, sans-serif;
@@ -297,16 +309,20 @@ fieldset {
 .footer-container1 {
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 137px;
 }
 
 .footer-container2 {
     display: flex;
     justify-content: space-between;
+    margin-left: 46px;
+    align-items: center;
 }
 
 .footer-text-container {
-    margin-top: 132px;
     margin-left: 73px;
+    margin-top: 40px;
 }
 
 .logo2 {
@@ -326,6 +342,7 @@ fieldset {
 .footer-button-container {
     display: flex;
     margin-top: 50px;
+    margin-left: -50px;
 }
 
 .footer-email {
@@ -345,11 +362,25 @@ fieldset {
 
 .footer-button {
     width: 178px;
-    height: 97px;
+    height: 100px;
     background-color: #F965FC;
     border-radius: 30px;
     font-size: 31px;
     line-height: 44.8px;
     color: #FFFFFF;
-    margin-left: -60px;
+    margin-left: -70px;
+}
+
+.font-size-32 {
+    font-size: 32px;
+}
+
+.footer-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-column {
+    margin-left: 100px;
 }
